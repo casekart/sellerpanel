@@ -24,19 +24,19 @@
 
   <!-- Bootstrap core CSS -->
 
-  <link href="dist/css/bootstrap.css" rel="stylesheet">
+  <link href="<?php echo base_url();?>dist/css/bootstrap.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
 
-  <link href="assets/css/dashboard.css" rel="stylesheet">
+  <link href="<?php echo base_url();?>assets/css/dashboard.css" rel="stylesheet">
 
 
 
   <!-- DataTable Stylesheet -->
 
-  <link rel="stylesheet" type="text/css" href="assets/css/jquery.dataTables.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/jquery.dataTables.css">
 
-<link rel="stylesheet" type="text/css" href="assets/css/datepicker3.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/datepicker3.css">
 
 <link href='http://fonts.googleapis.com/css?family=Quicksand:700' rel='stylesheet' type='text/css'>
 
@@ -44,7 +44,7 @@
 
   <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
-  <script src="assets/js/ie-emulation-modes-warning.js"></script>
+  <script src="<?php echo base_url();?>assets/js/ie-emulation-modes-warning.js"></script>
 
  
 
@@ -125,9 +125,9 @@
 
           <ul class="nav nav-sidebar">
 
-            <li class="active"><a href=""><i class="glyphicon glyphicon-shopping-cart"></i> Orders</a></li>
+            <li class="active"><a href="<?php echo base_url()?>index.php/orders"><i class="glyphicon glyphicon-shopping-cart"></i> Orders</a></li>
 
-            <li><a href="new_orders"><i class="glyphicon glyphicon-upload"></i> PNL upload</a></li>
+            <li><a href="<?php echo base_url()?>index.php/upload"><i class="glyphicon glyphicon-upload"></i> PNL upload</a></li>
 
             <li><a href="new_orders"><i class="glyphicon glyphicon-download"></i> Download stock</a></li>
 
