@@ -127,7 +127,17 @@
 
             <li class="active"><a href=""><i class="glyphicon glyphicon-shopping-cart"></i> Orders</a></li>
 
-            <li><a href="new_orders"><i class="glyphicon glyphicon-time"></i> Upload PNL</a></li>
+            <li><a href="new_orders"><i class="glyphicon glyphicon-upload"></i> PNL upload</a></li>
+
+            <li><a href="new_orders"><i class="glyphicon glyphicon-download"></i> Download stock</a></li>
+
+            <li><a href="new_orders"><i class="glyphicon glyphicon-pencil"></i> Stock Status</a></li>
+
+            <li><a href="changestatus"><i class="glyphicon glyphicon-ok"></i> Change Status</a></li>
+
+            <li><a href="new_orders"><i class="glyphicon glyphicon-fire"></i> Returns</a></li>
+
+            <li><a href="new_orders"><i class="glyphicon glyphicon-print"></i> Invoice Upload</a></li>
 
             <!--<li><a href="stock_status"><i class="glyphicon glyphicon-tasks"></i> Stock Status</a></li>
 
