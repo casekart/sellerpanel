@@ -9,7 +9,7 @@ class Login extends CI_Controller
 		if (!$this->session->userdata('user_id')) {
 			$this->load->view('login');
 		}else{
-			$this->load->view('orders');
+			$this->load->view('upload_orders');
 		}
 	}
 	public function login_check()
@@ -21,7 +21,7 @@ class Login extends CI_Controller
         		'user_id' => $result[0]['user_id'],
         		'user_name' => $result[0]['user_name']
         		));
-        	$this->load->view('orders');
+        	$this->load->view('upload_orders');
         }else{
         	$this->load->view('login');
         }

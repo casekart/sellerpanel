@@ -17,14 +17,14 @@
 				Upload new csv by browsing to file and clicking on Upload
 				<?php 
 				$class = array('class'=>'form-signin');
-				echo form_open('Upload/upload_pnl',$class); ?>
+				echo form_open_multipart('Upload_orders/do_upload',$class); ?>
 				Select CSV File to import:<br />
 				<div class="input_file">
-					<input type='file' name='filename' required> <span id='val'></span> <span id='button'>Select File</span>
+					<input type='file' name='userfile' required> <span id='val'></span> <span id='button'>Select File</span>
 				</div>
 				<div class="clearfix"></div>
 				<input type='submit' name='submit' class="btn btn-default" value='Click to Upload'>
-			</form>
+			<?php form_close()?>
 		</div>
 	</div>
 </div>
