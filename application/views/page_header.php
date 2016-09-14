@@ -126,6 +126,8 @@
           <ul class="nav nav-sidebar">
 
             <li class="active"><a href="<?php echo base_url()?>index.php/Upload_orders"><i class="glyphicon glyphicon-shopping-cart"></i> Orders</a></li>
+            <li class="active"><a href="<?php echo base_url()?>index.php/Upload_inventory"><i class="glyphicon glyphicon-upload"></i> upload Stock</a></li>
+
 
             <!-- <li><a href="<?php echo base_url()?>index.php/upload"><i class="glyphicon glyphicon-upload"></i> PNL upload</a></li> -->
 
