@@ -12,11 +12,11 @@
             <div class="panel-body">
               <div class="form-content">
                 Upload new csv by browsing to file and clicking on Upload
-                <form method="post" action="upload_stock" enctype="multipart/form-data">
+                <form method="post" action="Upload_inventory/do_upload" enctype="multipart/form-data">
                   Select CSV File to import:
                   <br>
                   <div class="input_file">
-                    <input type="file" required="" name="filename">
+                    <input type="file" accept=".csv" required="" name="userfile">
                     <span id="val"></span>
                     <span id="button">Select File</span>
                   </div>

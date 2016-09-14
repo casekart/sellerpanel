@@ -128,6 +128,7 @@
             <li class="active"><a href=""><i class="glyphicon glyphicon-shopping-cart"></i> Orders</a></li>
 
             <li><a href="<?php echo base_url()?>index.php/Upload"><i class="glyphicon glyphicon-upload"></i> PNL upload</a></li>
+            <li><a href="<?php echo base_url()?>index.php/Upload_inventory"><i class="glyphicon glyphicon-upload"></i> Inventory upload</a></li>
 
             <li><a href="new_orders"><i class="glyphicon glyphicon-download"></i> Download stock</a></li>
 
