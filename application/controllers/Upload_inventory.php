@@ -6,7 +6,7 @@ class Upload_inventory extends CI_Controller
 		if (!$this->session->userdata('user_id')) {
 			$this->load->view('login');
 		}else{
-			$this->load->view('upload_inventory');
+			$this->load->view('download_stock');
 		}
 	}
 	public function do_upload()
@@ -32,7 +32,7 @@ $file = fopen($fp,'r');
 $res=fgetcsv($file);
 $a = $res;
 $tn=explode('.', $fn);
-$tname=$this->input->post('inventory');
+$tname='inventory';
 while(! feof($file))
 {
 
